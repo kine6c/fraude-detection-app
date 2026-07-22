@@ -33,9 +33,9 @@ page = st.sidebar.radio("", [
     "📂 Analyser un fichier CSV",
     "📊 Données"
 ])
+
 st.sidebar.markdown("---")
-st.markdown("---")
-st.markdown("Application développée par Fatou Kiné CISSE | [GitHub](https://github.com/kine6c)")
+st.sidebar.markdown("Application développée par Fatou Kiné CISSE | [GitHub](https://github.com/kine6c)")
 
 
 # ══════════════════════════════════════════════
