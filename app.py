@@ -6,10 +6,13 @@ import joblib
 
 # --- Configuration de la page ---
 st.set_page_config(
+    st.markdown("# 🏦 Détection de Fraude Bancaire"),
+    st.markdown("---"),
     page_title="Détection de Fraude Bancaire",
     page_icon="🏦",
     layout="centered"
 )
+
 
 # --- Chargement du modèle ---
 @st.cache_resource
