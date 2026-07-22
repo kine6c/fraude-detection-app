@@ -34,7 +34,8 @@ page = st.sidebar.radio("", [
     "📊 Données"
 ])
 st.sidebar.markdown("---")
-
+st.markdown("---")
+st.markdown("Application développée par Fatou Kiné CISSE | [GitHub](https://github.com/kine6c)")
 
 
 # ══════════════════════════════════════════════
