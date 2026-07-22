@@ -35,8 +35,8 @@ page = st.sidebar.radio("", [
 ])
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("Application développée par Fatou Kiné CISSE | [GitHub](https://github.com/kine6c)")
-
+st.sidebar.markdown("Développée par <span style='color:#3498db'>**Votre Nom**</span>", unsafe_allow_html=True)
+st.sidebar.markdown("[GitHub](https://github.com/kine6c)")
 
 # ══════════════════════════════════════════════
 # PAGE 1 : SAISIR UNE TRANSACTION
