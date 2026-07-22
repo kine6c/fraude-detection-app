@@ -34,7 +34,7 @@ page = st.sidebar.radio("", [
     "📊 Données"
 ])
 st.sidebar.markdown("---")
-st.sidebar.caption("Détection de fraude bancaire")
+
 
 
 # ══════════════════════════════════════════════
